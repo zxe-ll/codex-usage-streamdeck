@@ -2,11 +2,7 @@
 
 Stream Deck NeoのInfobarに、Codexの5時間枠・週間枠の**残量%**とリセット時刻を表示するWindows向けプラグインです。
 
-```text
-5h    90%       7d    64%
-█████████░      ██████░░░░
-     01:42           10/04
-```
+![Codex UsageのInfobar表示例：5時間枠83%、週間枠63%](docs/images/infobar-preview.png)
 
 5hは緑、7dは青。バーの長さが残量に比例します。時刻は日本時間（Asia/Tokyo）です。
 
