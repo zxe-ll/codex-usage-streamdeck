@@ -1,0 +1,31 @@
+{
+  "name": "codex-usage-streamdeck",
+  "version": "0.2.3",
+  "description": "Codex account usage on Stream Deck Neo Infobar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "usage-test": "node src/usage-test.ts",
+    "test": "node --test test/*.test.ts",
+    "check": "tsc --noEmit",
+    "build": "node scripts/build.mjs",
+    "validate": "streamdeck validate com.ayato.codexusage.sdPlugin",
+    "pack": "streamdeck pack com.ayato.codexusage.sdPlugin --output dist --force",
+    "release": "npm run check && npm test && npm run build && npm run validate && npm run pack",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "@elgato/streamdeck": "^3.0.1"
+  },
+  "devDependencies": {
+    "@elgato/cli": "^1.10.1",
+    "@types/node": "^26.6.3",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2",
+    "ws": "^8.22.0"
+  },
+  "license": "MIT"
+}

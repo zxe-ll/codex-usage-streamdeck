@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/layout.json",
+  "id": "codex-usage", "controller": "Neo",
+  "items": [
+    { "key": "fiveLabel", "type": "text", "rect": [5, 7, 23, 18], "font": { "size": 13, "weight": 600 }, "color": "#63D6A6", "value": "5h", "alignment": "left" },
+    { "key": "weekLabel", "type": "text", "rect": [121, 7, 23, 18], "font": { "size": 13, "weight": 600 }, "color": "#63B9FF", "value": "7d", "alignment": "left" },
+    { "key": "five", "type": "text", "rect": [29, 0, 82, 31], "font": { "size": 27, "weight": 700 }, "value": "--", "alignment": "right" },
+    { "key": "week", "type": "text", "rect": [145, 0, 82, 31], "font": { "size": 27, "weight": 700 }, "value": "--", "alignment": "right" },
+    { "key": "fiveReset", "type": "text", "rect": [5, 36, 106, 14], "font": { "size": 12 }, "color": "#B8BEC7", "value": "--", "alignment": "right" },
+    { "key": "weekReset", "type": "text", "rect": [121, 36, 106, 14], "font": { "size": 12 }, "color": "#B8BEC7", "value": "--", "alignment": "right" },
+    { "key": "fiveBar", "type": "pixmap", "rect": [5, 31, 106, 4], "enabled": false },
+    { "key": "weekBar", "type": "pixmap", "rect": [121, 31, 106, 4], "enabled": false }
+  ]
+}

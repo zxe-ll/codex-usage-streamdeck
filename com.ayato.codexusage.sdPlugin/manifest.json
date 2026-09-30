@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+  "Actions": [
+    {
+      "UUID": "com.ayato.codexusage.infobar",
+      "Name": "Codex Usage",
+      "Icon": "imgs/action",
+      "Controllers": [
+        "Neo"
+      ],
+      "Tooltip": "Codex 5-hour and weekly remaining usage",
+      "States": [
+        {
+          "Image": "imgs/action",
+          "ShowTitle": false
+        }
+      ]
+    }
+  ],
+  "Author": "ayato",
+  "Name": "Codex Usage",
+  "Description": "Display Codex remaining usage and reset times on Stream Deck Neo Infobar.",
+  "Category": "Codex Usage",
+  "CategoryIcon": "imgs/category",
+  "CodePath": "bin/plugin.js",
+  "Icon": "imgs/plugin",
+  "UUID": "com.ayato.codexusage",
+  "Version": "0.2.3.0",
+  "SDKVersion": 3,
+  "Software": {
+    "MinimumVersion": "7.6"
+  },
+  "Nodejs": {
+    "Version": "24"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ]
+}

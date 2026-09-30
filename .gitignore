@@ -1,0 +1,16 @@
+node_modules/
+.research/
+dist/
+*.log
+.env
+.env.*
+auth.json
+config.toml
+credentials.json
+.codex/
+*.streamDeckPlugin
+*.js.map
+.DS_Store
+Thumbs.db
+com.ayato.codexusage.sdPlugin/bin/
+com.ayato.codexusage.sdPlugin/logs/
